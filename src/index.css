@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Arimo";
+}
+
+.bg {
+  background: url("./assets/imgs/showcase/img11.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 70vh;
+}
+@media (max-width: 768px) {
+  .bg {
+    background-position: top center;
+  }
+}
