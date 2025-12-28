@@ -9,6 +9,7 @@ import {
   Headphones,
   Gamepad,
   ChevronDown,
+  CarFront,
 } from "lucide-react";
 import { useDispatch } from "react-redux";
 import { setSelectedCategory } from "../../features/products/ProductSlice";
@@ -21,6 +22,7 @@ const categories = [
   "Cameras",
   "Audio",
   "Gaming",
+  "Toys",
 ];
 
 const iconMap = {
@@ -31,6 +33,7 @@ const iconMap = {
   Cameras: Camera,
   Audio: Headphones,
   Gaming: Gamepad,
+  Toys: CarFront,
 };
 
 export default function Category() {

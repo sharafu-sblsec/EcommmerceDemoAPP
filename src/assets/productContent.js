@@ -1,3 +1,5 @@
+import { title } from "framer-motion/client";
+
 const products = [
   {
     id: 1,
@@ -404,6 +406,14 @@ const products = [
     category: "Gaming",
     description: "Customizable control pad for streamers and content creators.",
     image: "/assets/imgs/img50.webp"
+  },
+  {
+    id: 51,
+    title: "Exciting Macrons LABUBU",
+    price: "4999",
+    category: "Toys",
+    description: "This ultra-soft, premium plush keychain features Labubu in an adorable pastel bunny costume with floppy ears and vibrant rainbow colors. Designed with a secure clip-on keychain, it easily attaches to backpacks, school bags, or purses, making it a fun and stylish accessory for kids and anime lovers alike. this collectible blind box figure is lightweight, portable, and built to last. The signature Labubu mischievous grin and kawaii-inspired style add a charming touch, making it a perfect gift for girls, boys, or anyone who loves unique plush toys.",
+    image:"/assets/imgs/img51.png"
   }
 
 ];
